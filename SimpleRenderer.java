@@ -10,7 +10,7 @@ public class SimpleRenderer{
     int indexer = 0;              //For testing purpose.
     int slope = p1.slope(p2);     //Slope of linex.
 
-    /* DDR - Digital Differential Algorithm
+    /* DDA - Digital Differential Algorithm
      * implementation using JFrame.
      */
     if(p1.slope(p2) <= 1){
