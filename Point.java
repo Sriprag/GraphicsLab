@@ -2,7 +2,7 @@
  * Only basic functions have been implemented.
  */
 
- 
+
 class Point{
   int x;
   int y;
@@ -24,6 +24,10 @@ class Point{
     return this.y;
   }
 
+  public String toString(){
+    return new String("(" + x + ", " + y + ")");
+  }
+  
   public int slope(Point p){
     return (p.y - this.y) / (p.x - this.x);
   }
